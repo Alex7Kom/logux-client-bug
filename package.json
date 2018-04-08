@@ -1,0 +1,17 @@
+{
+  "name": "logux-client-bug",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "logux-core": "^0.2.2",
+    "logux-redux": "^0.1.6",
+    "logux-server": "^0.2.6",
+    "logux-status": "^0.1.4",
+    "nodemon": "^1.17.3",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-server": "nodemon src/server"
+  }
+}
